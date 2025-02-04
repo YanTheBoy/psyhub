@@ -10,7 +10,7 @@ vars:
 
   GOLANGCI_LINT_VERSION: latest
   GOLANGCI_LINT_CACHE:
-    sh: echo "$HOME/Library/Caches" # FIXME
+    sh: echo "$HOME/Library/Caches"
 
   DEV_TOOLS: [github.com/daixiang0/gci@v0.10.1,mvdan.cc/gofumpt@v0.4.0]
 
